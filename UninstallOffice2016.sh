@@ -33,6 +33,11 @@ else
     rm -rf /Users/$USERNAME/Library/Containers/com.microsoft.openxml.excel.app
     rm -rf /Users/$USERNAME/Library/Containers/com.microsoft.outlook.profilemanager
 
+    rm -rf /Users/$USERNAME/Library/Application\ Support/com.microsoft.OneDrive
+    rm -rf /Users/$USERNAME/Library/Application\ Support/com.microsoft.OneDriveStandaloneUpdater
+    rm -rf /Users/$USERNAME/Library/Application\ Support/com.microsoft.OneDriveUpdater
+    # rm -rf /Users/$USERNAME/Library/Application\ Support/com.microsoft.teams
+
     echo "Cleaning ALL Outlook data..."
     rm -rf "/Users/$USERNAME/Library/Group Containers/UBF8T346G9.ms"
     rm -rf "/Users/$USERNAME/Library/Group Containers/UBF8T346G9.Office"
